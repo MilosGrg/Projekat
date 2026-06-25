@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="/images/favicon.ico">
+    <title>Kontakt</title>
+</head>
+<body>
+<header>
+   <nav> <a href="index.html">Početna</a> | <a href="onama.html">O nama</a> | <a href="usluge.html">Usluge</a> |<a href="galerija.html">Galerija</a> | <a href="kontakt.html">Kontakt</a> </nav>
+</header> <hr><br>
+<main>
+    <h1>Kontaktirajte nas</h1>
+
+    <p> Za informacije o vozilima, cenama, finansiranju ili zakazivanje probne vožnje, slobodno nas kontaktirajte.</p><br>
+    <p>E-mail: mercedesautocentar@gmail.com</p>
+    <p>Telefon: +381 11 555 7777</p><br>
+
+    <h2>Pošaljite upit</h2>
+
+    <form>
+        <label for="fname">Ime:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Prezime:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="pol">Pol:</label><br>
+        <input type="radio" name="pol" id="muski" value="muski">Muški<br>
+        <input type="radio" name="pol" id="zenski" value="zenski">Ženski<br><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" id="email" placeholder="primer@primer.com" required><br><br>
+        <label for="telefon">Telefon:</label><br>
+        <input type="number" name="telefon" id="telefon"><br><br>
+        <label for="model">Model koji vas zanima:</label><br>
+        <select id="model" name="model">
+            <option>A-Class</option>
+            <option>C-Class</option>
+            <option>E-Class</option>
+            <option>GLC</option>
+            <option>GLE</option>
+        </select><br><br>
+        <label for="message">Poruka:</label><br>
+        <textarea id="message" name="message"
+        rows="5" cols="30"></textarea> <br><br>
+        <input type="checkbox" name="usk" id="usk" required>
+        <label for="usk">Slažem se sa uslovima korišćenja</label> <br><br>
+        <input type="submit" value="Pošalji upit">
+        <input type="reset" value="Poništi">
+    </form>
+</main><br>
+<footer>
+    <p>&copy; 2026 Mercedes Auto Centar. Sva prava zadržana.</p>
+</footer>
+</body>
+</html>
